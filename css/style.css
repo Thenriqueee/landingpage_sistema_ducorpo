@@ -287,6 +287,11 @@ h3 { font-size: 20px; font-weight: 600; }
   z-index: 10;
 }
 
+.header__logo-icon {
+  height: 28px;
+  width: auto;
+}
+
 .header.scrolled .header__logo {
   color: var(--navy);
 }
@@ -1634,6 +1639,11 @@ h3 { font-size: 20px; font-weight: 600; }
   font-size: 16px;
   color: var(--white);
   margin-bottom: 12px;
+}
+
+.footer__logo-icon {
+  height: 24px;
+  width: auto;
 }
 
 .footer__description {
