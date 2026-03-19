@@ -1,35 +1,35 @@
 /* ====================================
-   STUDIO ZEN PAY - Landing Page Styles
+   DUCORPO - Landing Page Styles
    Mobile-first responsive design
    ==================================== */
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
   /* Colors */
-  --bg-primary: #FAFBFF;
-  --bg-secondary: #F0F2F8;
-  --bg-dark: #0C1222;
-  --bg-dark-secondary: #141C30;
-  --navy: #1B2A4A;
-  --slate: #4A5568;
-  --slate-light: #8896AB;
-  --accent: #6C5CE7;
-  --accent-dark: #5A4BD1;
-  --accent-light: #A29BFE;
-  --accent-glow: rgba(108, 92, 231, 0.15);
-  --gold: #F0C27A;
-  --gold-dark: #D4A254;
+  --bg-primary: #FDFAF7;
+  --bg-secondary: #F5F0EB;
+  --bg-dark: #1A1410;
+  --bg-dark-secondary: #231C16;
+  --navy: #2D241E;
+  --slate: #5A524A;
+  --slate-light: #8C8279;
+  --accent: #B8886F;
+  --accent-dark: #9E7260;
+  --accent-light: #D4A98C;
+  --accent-glow: rgba(184, 136, 111, 0.15);
+  --gold: #C9A96E;
+  --gold-dark: #B08F55;
   --green: #00D68F;
   --green-dark: #00B87A;
   --red: #E53E3E;
   --white: #FFFFFF;
-  --border: #E2E8F0;
+  --border: #E8E0D8;
   --whatsapp: #25D366;
 
   /* Gradients */
-  --gradient-hero: linear-gradient(135deg, #0C1222 0%, #1B2A4A 50%, #2D1B69 100%);
-  --gradient-cta: linear-gradient(135deg, #6C5CE7 0%, #A29BFE 100%);
-  --gradient-gold: linear-gradient(135deg, #F0C27A 0%, #D4A254 100%);
+  --gradient-hero: linear-gradient(135deg, #1A1410 0%, #2D221A 50%, #3D2E22 100%);
+  --gradient-cta: linear-gradient(135deg, #B8886F 0%, #D4A98C 100%);
+  --gradient-gold: linear-gradient(135deg, #C9A96E 0%, #B08F55 100%);
 
   /* Typography */
   --font-display: 'Plus Jakarta Sans', sans-serif;
@@ -396,7 +396,7 @@ h3 { font-size: 20px; font-weight: 600; }
 .hero__orb--1 {
   width: 400px;
   height: 400px;
-  background: #6C5CE7;
+  background: #B8886F;
   top: -100px;
   right: -100px;
   animation: float-orb 15s ease-in-out infinite;
@@ -405,7 +405,7 @@ h3 { font-size: 20px; font-weight: 600; }
 .hero__orb--2 {
   width: 300px;
   height: 300px;
-  background: #A29BFE;
+  background: #D4A98C;
   bottom: -50px;
   left: -50px;
   animation: float-orb 20s ease-in-out infinite reverse;
